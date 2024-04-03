@@ -31,7 +31,7 @@ app.post('/sendEmail', (req, res) => {
 
     // Email content
     const mailOptions = {
-        from: 'your_email@example.com',
+        from: 'pallaveechaubey11@gmail.com',
         to: emailType, // Email address based on the selected type
         subject: 'New message from ' + name,
         text: 'Message from: ' + name + '\nEmail: ' + email + '\n\nMessage:\n' + message
